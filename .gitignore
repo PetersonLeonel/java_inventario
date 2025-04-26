@@ -1,0 +1,34 @@
+# Eclipse settings (não versionar configurações específicas da IDE)
+.classpath           # Caminho de classes, gerado automaticamente pelo Eclipse
+.project             # Metadados do projeto Eclipse
+.settings/           # Configurações específicas do Eclipse (plugins, formatação, etc.)
+
+# Build directories (pastas de compilação)
+bin/                 # Saída de compilação padrão do Eclipse
+target/              # Pasta usada por ferramentas como Maven para builds
+
+# Arquivos de log
+*.log                # Logs gerados durante execução/testes
+
+# Sistema operacional (Windows/macOS/Linux)
+.DS_Store            # Arquivo oculto do macOS
+Thumbs.db            # Miniatura de imagem gerada pelo Windows
+
+# IntelliJ (caso alguém use outra IDE no time)
+.idea/               # Configurações do IntelliJ
+*.iml                # Arquivo de módulo do IntelliJ
+
+# Java
+*.class              # Arquivos compilados do Java
+*.jar                # Pacotes compilados
+*.war                # Arquivos web application archive
+
+# IDEs e ferramentas comuns
+.gradle/             # Cache do Gradle
+build/               # Pasta de saída de compilação (comum em Gradle)
+out/                 # Pasta de saída em alguns projetos Java
+
+# Testes e relatórios
+test-output/         # Saída de frameworks de teste como TestNG
+*.log                # Logs diversos
+*.tmp                # Arquivos temporários
