@@ -37,10 +37,19 @@ public class Product {
 	public int getQtdInStock() {
 		return qtdInStock;
 	}
-
+	
 	public void setQtdInStock(int qtdInStock) {
 		this.qtdInStock = qtdInStock;
 	}
+	
+	public void addToInventory(int qtd) {
+		this.qtdInStock += qtd; // this.qtdInStock = this.qtdInStock + qtd;
+	}
+	
+	public void deductFromInventory(int qtd) {
+		this.qtdInStock -= qtd; // this.qtdInStock = this.qtdInStock - qtd;
+	}
+
 
 	public double getPrice() {
 		return price;

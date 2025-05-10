@@ -72,4 +72,11 @@ public class ProductTester {
 		
 		return maxSize;
 	}
+	
+	static int getMenuOption(Scanner in) {
+		int menuOption = -1;
+		
+		return menuOption;
+	}
+	
 }
